@@ -60,9 +60,11 @@ snapshots/
 logs/
 
 # Documentation / generated markdown
-*.md
-!README.md
-docs/
+# Note: We now want to track CLAUDE.md and docs/ for hackathon collaboration
+# Only exclude auto-generated docs if needed
+# *.md
+# !README.md
+# docs/
 
 # Misc temp files
 texput.log
